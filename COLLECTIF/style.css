@@ -7,7 +7,7 @@ a {
   transition: 0.5s;
 }
 a:hover {
-  font-size: 3rem;
+  font-size: 2.4rem;
 }
 
 p {
@@ -33,7 +33,6 @@ p {
   list-style: none;
   margin-block: 0px;
   outline: none;
-  overflow: hidden;
 }
 
 body {
@@ -50,14 +49,15 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 header .logo {
   background: url(./media/231173750_537180724270204_6737530646178411863_n.png)
     center/cover;
-  width: 20%;
   height: 75px;
   margin: 0px 10px;
+  width: 75px;
 }
 header h1 {
   width: 30%;
@@ -71,6 +71,7 @@ header ul {
   margin: 0 auto;
 }
 header li {
+  font-size: 1.1rem;
   display: inline-block;
   padding: 5px;
   text-align: center;
