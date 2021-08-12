@@ -182,4 +182,13 @@ footer li {
   font-size: 3.4rem;
 }
 
+.lastYtbVideo {
+  width: 85%;
+  border: red 3px solid;
+  margin: 0 auto;
+}
+.lastYtbVideo iframe {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
