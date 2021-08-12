@@ -33,6 +33,7 @@ p {
   list-style: none;
   margin-block: 0px;
   outline: none;
+  overflow: hidden;
 }
 
 body {
@@ -52,7 +53,8 @@ header {
   margin-bottom: 40px;
 }
 header .logo {
-  background: url(./media/231173750_537180724270204_6737530646178411863_n.png) center/cover;
+  background: url(./media/231173750_537180724270204_6737530646178411863_n.png)
+    center/cover;
   width: 20%;
   height: 75px;
   margin: 0px 10px;
@@ -184,7 +186,6 @@ footer li {
 
 .lastYtbVideo {
   width: 85%;
-  border: red 3px solid;
   margin: 0 auto;
 }
 .lastYtbVideo iframe {
