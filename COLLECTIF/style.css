@@ -175,7 +175,7 @@ footer::before {
 footer ul {
   margin: 30px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 footer li {
