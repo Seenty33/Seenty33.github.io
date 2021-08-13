@@ -2,16 +2,34 @@
   font-family: "Bebas";
   src: url(./assets/Bebas_Neue/BebasNeue-Regular.ttf);
 }
+* {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  margin-block: 0px;
+}
+
+body {
+  font-family: "Bebas", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  width: 85%;
+  background: #000000;
+}
+
+p {
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
 a {
   text-decoration: none;
   transition: 0.5s;
 }
 a:hover {
   font-size: 2.4rem;
-}
-
-p {
-  letter-spacing: 2px;
 }
 
 .imgSection1,
@@ -23,24 +41,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
-* {
-  color: #ffffff;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  margin-block: 0px;
-  outline: none;
-}
-
-body {
-  font-family: "Bebas", sans-serif;
-  margin: 0 auto;
-  padding: 0;
-  width: 85%;
-  background: #000000;
+.section-1,
+.section-2,
+.section-3 {
+  padding: 10px;
+  gap: 10px;
   position: relative;
 }
 
@@ -53,14 +61,12 @@ header {
   margin-bottom: 40px;
 }
 header .logo {
-  background: url(./media/231173750_537180724270204_6737530646178411863_n.png)
-    center/cover;
+  background: url(./media/231173750_537180724270204_6737530646178411863_n.png) center/cover;
   height: 75px;
   margin: 0px 10px;
   width: 75px;
-}
-header .logo header {
-  margin-bottom: 15px;
+  min-width: 25px;
+  min-height: 25px;
 }
 header .logoShadow {
   background: inherit;
@@ -88,7 +94,7 @@ header li {
   font-size: 1.1rem;
   text-shadow: 5px 2px 4px #858585a8;
   display: inline-block;
-  padding: 5px;
+  padding: 13px;
   text-align: center;
 }
 header li a {
@@ -99,12 +105,10 @@ header li a {
 
 .section-1 {
   display: grid;
-  grid-template-columns: 25% 25% 50%;
+  grid-template-columns: 24% 24% 50%;
   height: 80vh;
-  gap: 20px;
-  margin: 30px 0px;
-  position: relative;
-  padding: 20px 0;
+  padding-top: 20px;
+  max-width: 100%;
 }
 .section-1::before {
   content: "";
@@ -124,18 +128,10 @@ header li a {
   background: url(./media/photo2.jpeg) center/cover;
   border-radius: 5px;
 }
-.section-1 .container {
-  margin: 10px;
-}
 
 .section-2 {
   margin: 30px 0px;
-  position: relative;
   padding: 20px 0;
-  width: 100%;
-}
-.section-2 p {
-  text-align: justify;
 }
 .section-2::before {
   content: "";
@@ -148,13 +144,17 @@ header li a {
   transform: translateX(-50%);
 }
 
+.lastYtbVideo {
+  margin: 10px auto;
+}
+.lastYtbVideo iframe {
+  width: 100%;
+}
+
 .section-3 {
   display: grid;
-  grid-template-columns: 50% 25% 25%;
+  grid-template-columns: 50% 24% 24%;
   height: 80vh;
-  gap: 20px;
-  margin: 30px 0px;
-  position: relative;
   padding: 20px 0;
 }
 .section-3::before {
@@ -202,14 +202,6 @@ footer ul {
 }
 footer li {
   font-size: 3.4rem;
-}
-
-.lastYtbVideo {
-  width: 85%;
-  margin: 0 auto;
-}
-.lastYtbVideo iframe {
-  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
